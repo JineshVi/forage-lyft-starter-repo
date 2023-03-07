@@ -1,4 +1,6 @@
-class StermanEngine():
+from engines.engine import Engine
+
+class StermanEngine(Engine):
     def __init__(self, warning_light_on):
         self.warning_light_on = warning_light_on
 
