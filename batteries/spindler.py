@@ -7,5 +7,5 @@ class Spindler():
         self.current_date = current_date
 
     def needs_service(self):
-        due_date = self.last_service_date.replace(year=self.last_service_date.year + 2)
+        due_date = self.last_service_date.replace(year=self.last_service_date.year + 3)
         return self.current_date > due_date
