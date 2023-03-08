@@ -1,7 +1,7 @@
 from serviceable import Serviceable
-from engines import Engine
-from batteries import Battery
-from tires import Tire
+from engines.engine import Engine
+from batteries.battery import Battery
+from tires.tire import Tire
 
 class Car(Serviceable):
     def __init__(self):
