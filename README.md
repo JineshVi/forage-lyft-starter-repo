@@ -1,2 +1,2 @@
 # Starter Repo
-This repo has everything you need to get started on the program, good luck!
+This is Back-End functionality that checks whether a car of a Rental Car fleet needs service depending upon the service criterias for Engine, Battery and Tires.
